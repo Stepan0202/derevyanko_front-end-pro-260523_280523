@@ -4,26 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nullStyle.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Homework 2</title>
 </head>
 <body>
-    <h1>Homework 2</h1>
-    <h2>Task 1: За допомогою prompt запитати як звуть користувача. За допомогою alert вивести "Hello, John! How are you?", де John це те, що ввів користувач</h2>
+    <div class="container">
+        <h1>Derevyanko. Homework 2</h1>
+        <h3>Task 1: за допомогою prompt запитати як звуть користувача. За допомогою alert вивести "Hello, John! How are you?", де John це те, що ввів користувач</h3>
 
-    <h2>Task 2: cтворити скрипт для складання, віднімання, множення та поділу двох чисел та виведення результатів</h2>
-    <form action="GET" id="task2">
-        <input type="text" name="task1Input" id="task1Input">
-        <input type="submit" value="COUNT THIS!">
-    </form>
-    <p class="resultTask1"></p>
-    <h2>Task 3: створити скрипт, який отримує два значення і виводить true, якщо значення рівні, false - якщо ні</h2>
-
-    <h2>Task 4: Визначити середнє арифметичне трьох чисел</h2>
-
-    <h2>Task 5: розкласти по цифрах п'ятизначне число і вивести у вихідному порядку через пробіл (використовувати оператор “розподіл по модулю” (%)</h2>
-    
-
+        <h3>Task 2: cтворити скрипт для складання, віднімання, множення та поділу двох чисел та виведення результатів</h3>
+        <p class="comment">Implements to any quantity of numbers. With operations priority. But without priority with brackets</p>
+        <form action="GET" id="task2">
+            <input type="text" name="task2Input" id="task2Input">
+            <input type="submit" value="COUNT THIS!">
+        </form>
+        <p class="resultTask2">Answer is: </p>
+        
+        <h3>Task 3: створити скрипт, який отримує два значення і виводить true, якщо значення рівні, false - якщо ні</h3>
+        <form action="GET" id="task3">
+            <label for="firstNumber">First number:</label>
+            <input type="text" name="firstNumber" id="firstNumber">
+            <label for="secondNumber">Second number:</label>
+            <input type="text" name="secondNumber" id="secondNumber">
+            <input type="submit" value="COMPARE THIS!">
+        </form>
+        <p class="resultTask3">Answer is: </p>
+        
+        <h3>Task 4: визначити середнє арифметичне трьох чисел</h3>
+        <form action="GET" id="task4">
+            <label for="numberOne">First number:</label>
+            <input type="text" name="numberOne" id="numberOne">
+            <label for="numberTwo">Second number:</label>
+            <input type="text" name="numberTwo" id="numberTwo">
+            <label for="numberThree">Third number:</label>
+            <input type="text" name="numberThree" id="numberThree">
+            <input type="submit" value="FIND arithmetic mean!">
+        </form>
+        <p class="resultTask4">Answer is: </p>
+        <h3>Task 5: розкласти по цифрах п'ятизначне число і вивести у вихідному порядку через пробіл (використовувати оператор “розподіл по модулю” (%)</h3>
+        <form action="GET" id="task5">
+            <input type="text" name="task5Input" id="task5Input">
+            <input type="submit" value="Expand this number!">
+        </form>
+        <p class="resultTask5">Answer is: </p>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
