@@ -1,6 +1,6 @@
 /* Task 1. За допомогою prompt запитати як звуть користувача. За допомогою alert вивести "Hello, John! How are you?", де John це те, що ввів користувач*/
-// const name = prompt("What is your name?");
-// alert(`Hello, ${name}! How are you?`);
+const name = prompt("What is your name?");
+alert(`Hello, ${name}! How are you?`);
 
 /* Task 2. Створити скрипт для складання, віднімання, множення та поділу двох чисел та виведення результатів*/
 
